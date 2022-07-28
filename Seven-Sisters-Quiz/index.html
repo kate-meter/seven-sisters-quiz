@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Seven Sisters Quiz</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Which Seven Sisters College should you attend?</h1>
+		<p id="description">Each historically women's college offers something greatly unique from the other. Based off your personality, let's see which one you should attend!</p>
+	</header>
+
+	<main>
+
+		<h2>It's Saturday night-- what's the move?</h2>	
+    <div class="question">
+  			<div class="answer-choice">
+  				<img src="assets/dance.jpg" alt="People dancing at a club">
+          <br>
+          <button id="q1a1">Going out dancing with friends</button>
+        </div>
+        <div class="answer-choice">
+          <img src="assets/movie.jpg" alt="POV of two people watching a movie with snacks">
+          <br>
+          <button id="q1a2">Staying in and watching a movie</button>
+        </div>
+        <div class="answer-choice">
+          <img src="assets/lib.jpg" alt="historic library filled with books and tables and chairs">
+          <br>
+          <button id="q1a3">Hitting the library to get a headstart on next week's assignments</button>
+        </div>
+        <div class="answer-choice">
+          <img src="assets/marshmallow.jpg" alt = "a bunch of marshmallows on sticks held over a campfire">
+          <br>
+          <button id="q1a4">Toasting marshmallows in a tent</button>
+        </div>
+
+    </div> 
+    
+    <h2>Post-class, which quick meal are you picking up to refuel?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/burger.jpg" alt="Huge burger with various toppings">
+        <br>
+        <button id="q2a1">Burger</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/zza.jpg" alt="Giant slice of cheese pizza being held over a white paper plate">
+        <br>
+        <button id="q2a2">Pizza</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/froyo.jpg" alt = "two cups of 16 handles frozen yogurt each with lots of sugary toppings">
+        <br>
+        <button id="q2a3">Frozen yogurt</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/lobster.jpg" alt = "lobster roll with a plate of fries in the background">
+        <br>
+        <button id="q2a4">Lobster roll</button>
+      </div>
+
+    </div> 
+    
+    <h2>Who is your feminist literary hero?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/sylvia.jpg" alt="Sylvia Plath in black and white">
+        <br>
+        <button id="q3a1">Sylvia Plath</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/zora.jpg" alt="Zora Neale Hurston in black and white">
+        <br>
+        <button id="q3a2">Zora Neale Hurston</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/gertrude.jpg" alt = "Gertrude Stein in black and white">
+        <br>
+        <button id="q3a3">Gertrude Stein</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/emily.jpg" alt = "Emily Dickinson in black and white">
+        <br>
+        <button id="q3a4">Emily Dickinson</button>
+      </div>
+
+    </div> 
+
+    <h2>What are your Spring Break plans?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/paris.jpg" alt="landscape of Paris with river and Eiffel tower in muted colors">
+        <br>
+        <button id="q4a1">Paris, France</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/tulum.jpg" alt="Tulum with crystal clear blue water with natural lookiing shaded awnings on the shore">
+        <br>
+        <button id="q4a2">Tulum, Mexico</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/dublin.jpg" alt="street in Dublin with lots of people and stores and historic buildings">
+        <br>
+        <button id="q4a3">Dublin, Ireland</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/mv.jpg">
+        <br>
+        <button id="q4a4" alt="grassy pathway to a beach in Martha's Vineyard with peole walking down it to the shore with a lighthouse">Martha's Vineyard, U.S.</button>
+      </div>
+
+    </div> 
+
+    <h2>What word best describes your fashion aesthetic?</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/outdoorsy.jpg" alt="girl with striped sweater, jeans, and beanie standing in front of a big rocky mountain and trees">
+        <br>
+        <button id="q5a1">Outdoorsy</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/indie.jpg" alt="singer Girl in Red taking a mirror selfie with overalls, scarf, fun socks, and over the ear headphones">
+        <br>
+        <button id="q5a2">Indie</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/preppy.jpg" alt="girl in blue cotton button down and khaki skirt balancing a book on her head">
+        <br>
+        <button id="q5a3">Preppy</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/trendy.jpg" alt="influencer Man Repeller posing in the street in a shiny black leather trench coat and red tee and floral midi skirt">
+        <br>
+        <button id="q5a4">Trendy</button>
+      </div>
+
+    </div> 
+
+    <br>
+
+    <br>
+
+    <button id="getResult">Get Result</button>
+    
+    <h2 id="result"></h2>
+
+    <br>
+
+    <br>
+
+    <button id="redo">Restart</button>
+    
+    
+  </main>
+  </body>
+</html>
