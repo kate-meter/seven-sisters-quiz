@@ -77,3 +77,21 @@ img{
   border-style: solid;
   border-color: #ff2272;
 }
+
+.display-change{
+  display: contents;
+}
+
+@media only screen and (max-width: 1100px) {
+  .display-change{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .display-change{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
